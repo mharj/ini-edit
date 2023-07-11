@@ -1,0 +1,60 @@
+{
+  "name": "ini-edit",
+  "version": "0.0.1",
+  "description": "Edit variables in ini file",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "dist"
+  ],
+  "mocha": {
+    "exit": true,
+    "extension": [
+      "ts",
+      "js"
+    ],
+    "recursive": true,
+    "require": [
+      "ts-node/register",
+      "source-map-support/register"
+    ],
+    "reporters": [
+      "spec",
+      "mocha-junit-reporter"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mharj/ini-edit.git"
+  },
+  "keywords": [
+    "ini",
+    "edit"
+  ],
+  "author": "mharj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mharj/ini-edit/issues"
+  },
+  "homepage": "https://github.com/mharj/ini-edit#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "chai": "^4.3.7",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-deprecation": "^1.4.1",
+    "eslint-plugin-prettier": "^5.0.0-alpha.2",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "mocha": "^10.2.0",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
